@@ -125,4 +125,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-GOOGLE_DRIVE_STORAGE_JSON_KEY_FILE = BASE_DIR / 'client_secrets'
+
+GOOGLE_DRIVE_STORAGE_JSON_KEY_FILE = BASE_DIR / 'client_secrets.json'
+# DEFAULT_FILE_STORAGE = 'storages.backends.googledrive.GoogleDriveStorage'
