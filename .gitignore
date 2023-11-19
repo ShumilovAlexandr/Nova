@@ -151,3 +151,5 @@ dmypy.json
 alembic.ini
 
 .env
+
+.json
