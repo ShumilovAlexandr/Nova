@@ -152,4 +152,4 @@ alembic.ini
 
 .env
 
-.json
+client_secrets.json
